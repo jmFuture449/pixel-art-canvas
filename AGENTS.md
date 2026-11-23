@@ -42,6 +42,8 @@ pytest tests/ -v
 
 \- Keep route handlers thin: business logic belongs in service functions
 
+\- Use LF (Unix) line endings in every file you create or edit, never CRLF. This is enforced by .gitattributes (\* text=auto eol=lf), so do not change that file or the core.autocrlf setting
+
 
 
 \## Don't
